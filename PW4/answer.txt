@@ -1,0 +1,34 @@
+
+What is a Database?
+A database is a structured collection of data that allows for efficient storage, retrieval, and management of information. For example, an online bookstore uses a database to store details about books, authors, and customer orders, enabling quick searches and updates.
+
+File-Based Storage System
+A file-based storage system organizes data in files, which can be accessed and manipulated directly. However, it faces challenges like data redundancy, difficulty in data sharing, and lack of data integrity, making it less efficient for complex applications.
+
+What is DBMS?
+A Database Management System (DBMS) is software that facilitates the creation, manipulation, and administration of databases. The need for a DBMS arose to manage large volumes of data efficiently, ensuring data integrity, security, and ease of access.
+
+Challenges of File-Based Storage Tackled by DBMS
+Data Redundancy: DBMS minimizes duplicate data storage.
+Data Integrity: Ensures accuracy and consistency of data.
+Concurrent Access: Allows multiple users to access data simultaneously.
+Data Security: Provides access controls to protect sensitive information.
+Data Relationships: Manages complex relationships between data entities effectively.
+Types of Classification in DBMS
+DBMS can be classified into various types, such as:
+
+Hierarchical DBMS: Data is organized in a tree-like structure.
+Network DBMS: Uses a graph structure for data relationships.
+Relational DBMS: Stores data in tables with relationships defined between them.
+Object-oriented DBMS: Integrates object-oriented programming with database capabilities.
+NoSQL DBMS: Designed for unstructured data and flexible schemas.
+Significance of Data Modelling
+Data modeling is crucial as it defines how data is structured, stored, and accessed. It helps in understanding data relationships and ensures that the database meets business requirements. Common types include:
+
+Conceptual Data Model: High-level view of data and its relationships.
+Logical Data Model: More detailed structure without considering physical aspects.
+Physical Data Model: Specifies how data is stored in the database.
+Three Schema Architecture
+Internal Schema: Describes the physical storage of data. Advantage: Optimizes storage and access efficiency.
+Conceptual Schema: Represents the logical structure of the entire database. Advantage: Provides a community view of data.
+External Schema: Defines how users interact with the data. Advantage: Customizes views for different users, enhancing usability.
